@@ -1,5 +1,5 @@
 def calculate_savings(income, expenses):
-    return round(income - expenses, 2)
+    return float(income - expenses)
 
 
 def discount_price(price, discount_percent):
